@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang='ru'>
+    
+    <head>
+        
+        <title>HighTechnologies</title>
+        
+        <meta charset="utf-8">
+        
+       
+        <link rel='stylesheet' type ='text/css' href='resources/css/style.css' >
+        <link rel="stylesheet" type ='text/css' href='vendors/css/normalize.css'>
+        <link rel="stylesheet" type ='text/css' href='vendors/css/grid.css'>
+        <link rel="stylesheet" type ='text/css' href='vendors/css/ionicons.min.css'>
+        
+       <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Catamaran|Mina" rel="stylesheet">
+    </head>
+        
+    <body>
+          
+       <header>
+         <nav>
+             <div class='row '>
+                 <ul class='main-nav'>
+                     <li><i class='ion-ios-home-outline small-icons'></i><a href='#'>Sign Up</a></li>
+                     <li><i class='ion-ios-chatboxes-outline small-icons'></i><a href='#'>Reviews</a></li>
+                     <li><i class='ion-ios-list-outline small-icons'></i><a href='#'>About us</a></li>
+                     <li><i class='ion-ios-monitor-outline small-icons'></i><a href='#'>Technologies</a></li>
+
+                 </ul>
+             </div>
+         </nav>
+         
+        <div class='row'>
+                 <img src='resources/img/1.png' class='first-teg'>
+             <div class ='main-text' >
+                 <h1>Necessity is the mother of invention</h1>
+            </div>            
+                  <img src='resources/img/2.png' class='second-teg'>
+                  
+        </div> 
+        
+        <div class='btn'>
+            <a href='#' >Lets go!</a>
+            <a href='#' >More</a>
+        </div>
+        
+        
+       </header>
+        
+        
+        
+        
+        
+        <section class='section-about'>
+            <div class='row'>
+                
+            </div>
+        </section>
+        
+        <section class='section-reviews'>
+            <div class='row feedback'>
+                <h1>feedback from our customers</h1>
+            </div>
+            
+            <div class='row'>
+               
+                <div class='col span-1-of-3'>
+                  <h3>sdfsdf</h3>
+                   <p> 
+                   kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+                   </p>
+                   
+                </div>
+                
+                <div class='col span-1-of-3'>
+                    <p> 
+                   ыва
+                   </p>
+                </div>
+                
+                <div class='col span-1-of-3'>
+                    <p> 
+                  ыва
+                   </p>
+                </div>
+                
+            </div>
+        </section>
+        
+    </body>
+    
+</html>

@@ -1,0 +1,210 @@
+
+/*FOR ALL ELEMENTS*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+    
+
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+h1{
+    
+    font-weight:450;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.9);
+    word-spacing: 4px;
+    font-family: 'Mina', sans-serif;
+    text-shadow: 2px 2px 22px rgba(255, 255, 255, 0.4);
+}
+
+.clearfix{zoom:1}
+.clearfix{
+    content: ' ';
+    clear: both;
+    display: table;
+    height: 0;
+}
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+
+
+/*HEADER*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(images/1.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.main-text{
+    font-size: 120%;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 40%;
+    left: 14%;
+    
+    }
+    
+   /* padding: 60px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 90px rgba(83, 26, 0, 0.28);
+    border-radius: 10px;
+*/
+        
+    
+.second-teg{ 
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    top:43%;
+    left: 85%;
+
+    
+}
+
+.first-teg{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    top: 43%;
+    left: 7%;
+}
+
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+
+
+
+/*NAVIGATION*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+
+.main-nav{
+list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin: 20px 22px;
+    float: right;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    text-decoration: none;
+    padding-left: 7px;
+    color: rgba(255, 255, 255, 0.7);
+    transition: text-shadow 0.3s, color 0.3s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 40px rgba(255, 255, 255, 0.71);
+}
+
+.small-icons{
+ color:#ffffff;
+}
+
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+
+
+
+/*MAIN BUT*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+
+.btn a{
+    text-decoration: none;
+    margin-right: 370px;
+    display: inline-block;
+    padding: 10px 50px;
+}
+.btn a:last-child{
+    margin-right: 0;
+    padding: 10px 67px;
+}
+
+.btn{
+    
+    position: absolute;
+    top: 70%;
+    left: 23%;
+}
+
+
+
+.btn a:link,
+.btn a:visited{
+   background-color: rgba(137, 137, 137, 0.33);
+   border-radius: 15px;
+   font-family: 'Mina', sans-serif;
+   border: 1px solid transparent;
+   transition: border 0.3s, background-color 0.3s, box-shadow 0.3s, color 0.3s;
+   color: rgba(255, 255, 255, 0.7);
+}
+
+.btn a:hover,
+.btn a:active{
+ background-color: rgba(137, 137, 137, 0.5);
+ border: 1px solid rgba(255, 255, 255, 0.2);  
+ box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+ color: white;
+}
+
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+
+
+
+.section-about{
+    height: 100vh;
+    background-color: rgba(51, 48, 48, 0.76);
+
+}
+
+.section-reviews{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(images/background-2045379_1280.jpg);
+    background-attachment: fixed;
+}
+
+.feedback{
+    padding-top: 50px;
+    padding-left: 210px;
+    
+}
+
+
+
+
+
+
+
+

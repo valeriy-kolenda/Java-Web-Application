@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Mina', sans-serif;
+}
+
+html{
+    background-color: #fff;
+     font-family: 'Mina', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color:#fff;
+    text-rendering: optimizeLegibility
+}
+
+.row{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.clearfix{zoom:1}
+.clearfix{
+    content: ' ';
+    clear: both;
+    display: table;
+    height: 0;
+}
+
+
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+
+
+/*HEADER*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+header {
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.75)),to(rgba(0, 0, 0, 0.75))),url(images/apple-606761_1920.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-text{
+    position: absolute;
+    width: 1000px;
+    top: 42%;
+    left: 12%;
+
+}
+
+
+h2{
+    text-align: center;
+    font-size: 260%;
+    font-weight:400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.9);
+    word-spacing: 4px;
+    font-family: 'Mina', sans-serif;
+    text-shadow: 2px 2px 25px rgba(255, 255, 255, 0.4);
+}
+/*
+.second-teg{
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    top:43%;
+    left: 73%;
+}
+.first-teg{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    top: 43%;
+    left: 21%;
+}*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+
+
+/*NAVIGATION*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+
+.main-nav{
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin: 10px 0 0 40px;
+    float: right;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    text-decoration: none;
+    padding-left: 7px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    -webkit-transition: text-shadow 0.5s, color 0.5s;
+    transition: text-shadow 0.5s, color 0.5s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 30px rgba(255, 255, 255, 0.6);
+}
+
+.small-icons{
+    color:#ffffff;
+}
+
+.main-row{
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 50px;
+}
+
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+
+/*MAIN BUT*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+
+
+.btn a:link,
+.btn a:visited{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgba(137, 137, 137, 0.5);
+    border-radius: 15px;
+    font-family: 'Mina', sans-serif;
+    border: 1px solid transparent;
+    -webkit-transition: border 0.3s, background-color 0.3s, color 0.3s, -webkit-box-shadow 0.3s;
+    transition: border 0.3s, background-color 0.3s, color 0.3s, -webkit-box-shadow 0.3s;
+    transition: border 0.3s, background-color 0.3s, box-shadow 0.3s, color 0.3s;
+    transition: border 0.3s, background-color 0.3s, box-shadow 0.3s, color 0.3s, -webkit-box-shadow 0.3s;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 10px 70px;
+    margin-left: 305px;
+    margin-top: 90px;
+}
+
+.btn a:last-child{
+    padding: 10px 105px;
+}
+
+.btn a:hover,
+.btn a:active{
+    background-color: rgba(137, 137, 137, 0.73);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    color: white;
+}
+
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
